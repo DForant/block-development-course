@@ -1,8 +1,0 @@
-{
-    "apiVersion": 2,
-    "title": "My First Block",
-    "name": "cwd/my-first-block",
-    "category": "layout",
-    "icon": "beer",
-    "editorScript": "file:./build/index.js"
-}
