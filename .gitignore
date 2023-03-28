@@ -23,8 +23,6 @@ wp-config.php
 # Example themes
 /wp-content/themes/twenty*/
 
-# Example plugin
-/wp-content/plugins/*
 
 
 # Uploads
@@ -40,10 +38,14 @@ wp-config.php
 #
 # Note: If you wish to whitelist plugins,
 # uncomment the next line
-#/wp-content/plugins
+wp-content/plugins/*
+!wp-content/plugins/df-block-dev/
 
 # All themes
 #
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# Other Folders and files
+node_modules
