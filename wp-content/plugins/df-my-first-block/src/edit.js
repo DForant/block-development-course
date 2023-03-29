@@ -1,5 +1,7 @@
 import { useBlockProps } from "@wordpress/block-editor";
 
+import './editor.scss'
+
 const Edit = () => {
 
     const blockProps = useBlockProps()
