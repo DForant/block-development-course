@@ -19,7 +19,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const Edit = () => {
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)(), "Hello world, from the editor. From the edit.js file");
+  const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)();
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", blockProps, "Hello world, from the editor. From the edit.js file");
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Edit);
 
@@ -42,7 +43,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const Save = () => {
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps.save(), "Hello world, from the frontend. From the save.js file.");
+  const blockProps = _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps.save();
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", blockProps, "Hello world, from the frontend. From the save.js file.");
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Save);
 
@@ -84,7 +86,7 @@ module.exports = window["wp"]["element"];
   \********************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"apiVersion":2,"title":"My first block","name":"cwd/my-first-block","category":"layout","icon":"beer","editorScript":"file:./build/index.js"}');
+module.exports = JSON.parse('{"apiVersion":2,"title":"My first block","name":"cwd/my-first-block","category":"layout","icon":"beer","editorScript":"file:./build/index.js","editorStyle":"file:./editor.css","style":"file:./style.css"}');
 
 /***/ })
 

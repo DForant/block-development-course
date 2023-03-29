@@ -1,6 +1,8 @@
 import { useBlockProps } from "@wordpress/block-editor";
 
 const Edit = () => {
-    return <p {...useBlockProps()}>Hello world, from the editor. From the edit.js file</p>
+
+    const blockProps = useBlockProps()
+    return <p {...blockProps}>Hello world, from the editor. From the edit.js file</p>
 }
 export default Edit
