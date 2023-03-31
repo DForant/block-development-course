@@ -1,9 +1,0 @@
-{
-    "apiVersion": 2,
-    "title": "My Block",
-    "name": "dfdesigns/my-block",
-    "version": "1.0.0",
-    "category": "layout",
-    "icon": "beer",
-    "editorScript": "file:./index.js"
-}
