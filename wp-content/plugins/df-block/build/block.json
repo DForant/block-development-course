@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "DF Block",
+  "description": " A simple block.",
+  "name": "dfdesigns/df-block",
+  "version": "1.0.0",
+  "category": "widgets",
+  "icon": "beer",
+  "editorScript": "file:./index.js"
+}
