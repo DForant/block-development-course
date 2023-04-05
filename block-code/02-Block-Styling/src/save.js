@@ -1,8 +1,6 @@
 import {useBlockProps} from '@wordpress/block-editor'
-import { getFreeformContentHandlerName } from '@wordpress/blocks'
 
 const save = () => {
-
     // const redBackground = {
     //     backgroundColor: '#900',
     //     color: '#fff',
@@ -11,7 +9,6 @@ const save = () => {
 
     // const blockProps = useBlockProps.save({style: redBackground})
     const blockProps = useBlockProps.save()
-    
     return <p {...blockProps}>Hello world, from frontend.</p>
 }
 

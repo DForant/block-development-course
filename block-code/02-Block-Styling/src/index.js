@@ -4,10 +4,9 @@ import json from './block.json'
 import edit from './edit'
 import save from './save'
 
-import './edit-color.scss'
-import './border-rad.scss'
 import './style.scss'
-
+import './editor.scss'
+import './border.scss'
 
 const {name} = json
 
